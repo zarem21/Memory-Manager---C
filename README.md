@@ -3,12 +3,6 @@ CSE 374 - HW 6
 README
 5/29/2020
 
-Jia Ling worked primarily on freemem.c, mem_impl.h, mem_utils.c
-(including check_heap(), merge(), split(), add(), and remove_block()),
-print_heap.c, and Makefile.
-Majid worked on getmem.c, get_mem_stats.c, mem.h, and bench.c.
-Debugging was a joint effort, with several edits made by each of us on
-all parts of the project.
 
 The free list data is organized much like a linked list, where each
 block of memory points to its neighbor and stores their size (in bytes).
